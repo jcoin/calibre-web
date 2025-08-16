@@ -20,36 +20,35 @@
 # Thomas <thovi98@gmail.com>, 2021
 msgid ""
 msgstr ""
-"Project-Id-Version:  Calibre-Web\n"
+"Project-Id-Version: Calibre-Web\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2025-06-29 09:44+0200\n"
-"PO-Revision-Date: 2020-06-07 06:47+0200\n"
-"Last-Translator: <thovi98@gmail.com>\n"
-"Language: fr\n"
+"PO-Revision-Date: 2025-08-16 15:07+0200\n"
+"Last-Translator: thovi98@gmail.com\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "Generated-By: Babel 2.15.0\n"
+"X-Generator: Poedit 3.6\n"
 
 #: cps/about.py:85
 msgid "Statistics"
 msgstr "Statistiques"
 
 #: cps/admin.py:151
-#, fuzzy
 msgid "Server restarted, please reload page."
-msgstr "Serveur redémarré, merci de rafraîchir la page"
+msgstr "Serveur redémarré, merci de rafraîchir la page."
 
 #: cps/admin.py:153
-#, fuzzy
 msgid "Performing Server shutdown, please close window."
-msgstr "Arrêt du serveur en cours, merci de fermer la fenêtre"
+msgstr "Arrêt du serveur en cours, merci de fermer la fenêtre."
 
 #: cps/admin.py:161
 msgid "Success! Database Reconnected"
-msgstr ""
+msgstr "Base de données connectée"
 
 #: cps/admin.py:164
 msgid "Unknown command"
@@ -80,12 +79,11 @@ msgstr "Configuration de l’interface utilisateur"
 
 #: cps/admin.py:315 cps/admin.py:996 cps/db.py:801 cps/search.py:150
 #: cps/web.py:753
-#, fuzzy, python-format
+#, python-format
 msgid "Custom Column No.%(column)d does not exist in calibre database"
-msgstr "La colonne personnalisée No.%(column)d n'existe pas dans la base de données calibre"
+msgstr "La colonne personnalisée n°.%(column)d n'existe pas dans la base de données calibre"
 
 #: cps/admin.py:333 cps/templates/admin.html:51
-#, fuzzy
 msgid "Edit Users"
 msgstr "Éditer les utilisateurs"
 
@@ -184,9 +182,8 @@ msgid "Are you sure you want to delete this shelf?"
 msgstr "Voulez-vous vraiment supprimer l’étagère ?"
 
 #: cps/admin.py:624
-#, fuzzy
 msgid "Are you sure you want to change locales of selected user(s)?"
-msgstr "Voulez-vous vraiment supprimer l’étagère ?"
+msgstr "Voulez-vous vraiment supprimer les paramètres linguistiques du ou des utilisateurs sélectionnés ? "
 
 #: cps/admin.py:626
 msgid "Are you sure you want to change visible book languages for selected user(s)?"
@@ -197,7 +194,6 @@ msgid "Are you sure you want to change the selected role for the selected user(s
 msgstr "Voulez-vous vraiment modifier le rôle sélectionné pour le ou les utilisateurs sélectionnés ?"
 
 #: cps/admin.py:630
-#, fuzzy
 msgid "Are you sure you want to change the selected restrictions for the selected user(s)?"
 msgstr "Voulez-vous vraiment modifier les restrictions sélectionnées pour le ou les utilisateurs sélectionnés ?"
 
@@ -211,13 +207,12 @@ msgid "Are you sure you want to change shelf sync behavior for the selected user
 msgstr "Voulez-vous vraiment supprimer l’étagère?"
 
 #: cps/admin.py:637
-#, fuzzy
 msgid "Are you sure you want to change Calibre library location?"
-msgstr "Voulez-vous vraiment arrêter Calibre-Web ?"
+msgstr "Voulez-vous vraiment modifier l'emplacement de la librairie Calibre ?"
 
 #: cps/admin.py:639
 msgid "Calibre-Web will search for updated Covers and update Cover Thumbnails, this may take a while?"
-msgstr ""
+msgstr "Calibre-Web va chercher les mises à jour de couvertures et mettre à jour leurs vignettes, cela peut prendre du temps."
 
 #: cps/admin.py:642
 msgid "Are you sure you want delete Calibre-Web's sync database to force a full sync with your Kobo Reader?"
@@ -264,9 +259,8 @@ msgid "Please Enter a LDAP Provider, Port, DN and User Object Identifier"
 msgstr "Veuillez saisir un fournisseur LDAP, Port, DN et l'identifiant objet de l'utilisateur"
 
 #: cps/admin.py:1223
-#, fuzzy
 msgid "Please Enter a LDAP Service Account and Password"
-msgstr "Veuillez entrer un nom d'utilisateur valide pour réinitialiser le mot de passe"
+msgstr "Veuillez saisir un compte de service LDAP et le mot de passe associé"
 
 #: cps/admin.py:1226
 msgid "Please Enter a LDAP Service Account"
@@ -313,7 +307,7 @@ msgstr "Modifier les paramètres du serveur de courriels"
 
 #: cps/admin.py:1314
 msgid "Success! Gmail Account Verified."
-msgstr ""
+msgstr "Compte Gmail vérifié"
 
 #: cps/admin.py:1334 cps/admin.py:1337 cps/admin.py:1722 cps/admin.py:1878
 #: cps/admin.py:1976 cps/admin.py:2097 cps/editbooks.py:168
@@ -348,15 +342,15 @@ msgstr ""
 
 #: cps/admin.py:1386
 msgid "Invalid start time for task specified"
-msgstr ""
+msgstr "Date de début invalide pour la tâche spécifiée"
 
 #: cps/admin.py:1391
 msgid "Invalid duration for task specified"
-msgstr ""
+msgstr "Durée invalide pour la tâche spécifiée"
 
 #: cps/admin.py:1401
 msgid "Scheduled tasks settings updated"
-msgstr ""
+msgstr "Paramètres des tâches ordonnancées mis à jour"
 
 #: cps/admin.py:1411 cps/admin.py:1460 cps/admin.py:2093 cps/web.py:1325
 msgid "Oops! An unknown error occurred. Please try again later."
@@ -364,7 +358,7 @@ msgstr "Une erreur inconnue est survenue. Veuillez réessayer plus tard."
 
 #: cps/admin.py:1415
 msgid "Settings DB is not Writeable"
-msgstr ""
+msgstr "La base de données des paramètres ne peut pas être écrite"
 
 #: cps/admin.py:1445 cps/admin.py:2085
 #, python-format
@@ -372,14 +366,13 @@ msgid "Edit User %(nick)s"
 msgstr "Éditer l'utilisateur %(nick)s"
 
 #: cps/admin.py:1457
-#, fuzzy, python-format
+#, python-format
 msgid "Success! Password for user %(user)s reset"
 msgstr "Le mot de passe de l’utilisateur %(user)s a été réinitialisé"
 
 #: cps/admin.py:1463
-#, fuzzy
 msgid "Oops! Please configure the SMTP mail settings."
-msgstr "Veuillez configurer les paramètres SMTP au préalable..."
+msgstr "Veuillez configurer les paramètres du serveur de courriels SMTP "
 
 #: cps/admin.py:1474
 msgid "Logfile viewer"
@@ -435,18 +428,16 @@ msgid "General error"
 msgstr "Erreur générale"
 
 #: cps/admin.py:1551
-#, fuzzy
 msgid "Update file could not be saved in temp dir"
-msgstr "Le fichier de mise à jour ne peut pas être sauvegardé dans le répertoire temporaire"
+msgstr "Le fichier mis à jour ne peut pas être sauvegardé dans le répertoire temporaire"
 
 #: cps/admin.py:1552
 msgid "Files could not be replaced during update"
 msgstr "Les fichiers n’ont pas pu être remplacés pendant la mise à jour"
 
 #: cps/admin.py:1576
-#, fuzzy
 msgid "Failed to extract at least One LDAP User"
-msgstr "Impossible de créer au moins un utilisateur LDAP"
+msgstr "Impossible d'extraire au moins un utilisateur LDAP"
 
 #: cps/admin.py:1621
 msgid "Failed to Create at Least One LDAP User"
@@ -471,7 +462,7 @@ msgstr "{} utilisateur importé avec succès"
 
 #: cps/admin.py:1734
 msgid "Books path not valid"
-msgstr ""
+msgstr "Le chemin du répertoire des livres n'est pas valide"
 
 #: cps/admin.py:1740
 msgid "DB Location is not Valid, Please Enter Correct Path"
@@ -491,17 +482,15 @@ msgstr "L'emplacement du fichier Certfile est incorrect, veuillez saisir un chem
 
 #: cps/admin.py:1863
 msgid "Password length has to be between 1 and 40"
-msgstr ""
+msgstr "La longueur du mot de passe doit être comprise entre 1 et 40 "
 
 #: cps/admin.py:1917
-#, fuzzy
 msgid "Database Settings updated"
-msgstr "Les paramètres du serveur de courriels ont été mis à jour"
+msgstr "Les paramètres de la base de données ont été mis à jour"
 
 #: cps/admin.py:1925
-#, fuzzy
 msgid "Database Configuration"
-msgstr "Configuration des options"
+msgstr "Configuration de la base de données"
 
 #: cps/admin.py:1940 cps/web.py:1299
 msgid "Oops! Please complete all fields."
@@ -540,7 +529,7 @@ msgstr "Aucun utilisateur admin restant, impossible de supprimer l’utilisateur
 
 #: cps/admin.py:2063 cps/web.py:1484
 msgid "Email can't be empty and has to be a valid Email"
-msgstr ""
+msgstr "Le champ Courriel ne peut être vide et doit être valide."
 
 #: cps/admin.py:2089
 #, python-format
@@ -604,7 +593,7 @@ msgid "Identifiers are not Case Sensitive, Overwriting Old Identifier"
 msgstr "Les identificateurs ne sont pas sensibles à la casse, écrasant l’ancien identificateur"
 
 #: cps/editbooks.py:515 cps/editbooks.py:717 cps/editbooks.py:1055
-#, fuzzy, python-format
+#, python-format
 msgid "'%(langname)s' is not a valid language"
 msgstr "%(langname)s n'est pas une langue valide"
 
@@ -614,16 +603,15 @@ msgstr "Les métadonnées ont bien été mises à jour"
 
 #: cps/editbooks.py:566
 msgid "Error editing book: {}"
-msgstr ""
+msgstr "Erreur d'édition de livre: {}"
 
 #: cps/editbooks.py:661
 msgid "Uploaded book probably exists in the library, consider to change before upload new: "
 msgstr "Le fichier téléchargé existe probablement dans la librairie, veuillez le modifier avant de le télécharger de nouveau: "
 
 #: cps/editbooks.py:755 cps/editbooks.py:1202
-#, fuzzy
 msgid "File type isn't allowed to be uploaded to this server"
-msgstr "L’extension de fichier '%(ext)s' n’est pas autorisée pour être déposée sur ce serveur"
+msgstr "La dépose de ce type de fichier n'est pas permise sur ce serveur"
 
 #: cps/editbooks.py:761 cps/editbooks.py:1213
 #, python-format
@@ -661,13 +649,13 @@ msgid "edit metadata"
 msgstr "modifier les métadonnées"
 
 #: cps/editbooks.py:1016
-#, fuzzy, python-format
+#, python-format
 msgid "Seriesindex: %(seriesindex)s is not a valid number, skipping"
-msgstr "%(seriesindex)s n’est pas un nombre valide, ignoré"
+msgstr "Seriesindex: %(seriesindex)s n’est pas un nombre valide, ignoré"
 
 #: cps/editbooks.py:1207
 msgid "User has no rights to upload additional file formats"
-msgstr ""
+msgstr "L'utilisateur n'est pas habilité à charger d'autres formats de fichier"
 
 #: cps/editbooks.py:1231
 #, python-format
@@ -708,22 +696,18 @@ msgid "%(format)s not found: %(fn)s"
 msgstr "%(format)s introuvable : %(fn)s"
 
 #: cps/helper.py:104 cps/helper.py:233 cps/templates/detail.html:66
-#, fuzzy
 msgid "Send to eReader"
-msgstr "Envoyer vers Kindle"
+msgstr "Envoyer vers la liseuse"
 
 #: cps/helper.py:105 cps/helper.py:125 cps/helper.py:235
-#, fuzzy
 msgid "This Email has been sent via Calibre-Web."
 msgstr "Ce courriel a été envoyé depuis Calibre-Web."
 
 #: cps/helper.py:123
-#, fuzzy
 msgid "Calibre-Web Test Email"
 msgstr "Courriel de test de Calibre-Web"
 
 #: cps/helper.py:124
-#, fuzzy
 msgid "Test Email"
 msgstr "Courriel de test"
 
@@ -803,17 +787,16 @@ msgid "This username is already taken"
 msgstr "Cet utilisateur est déjà pris"
 
 #: cps/helper.py:679
-#, fuzzy
 msgid "Invalid Email address format"
-msgstr "Format de l’adresse courriel invalide"
+msgstr "Format du courriel invalide"
 
 #: cps/helper.py:701
 msgid "Password doesn't comply with password validation rules"
-msgstr ""
+msgstr "Le mot de passe ne respecte pas les règles de validation"
 
 #: cps/helper.py:847
 msgid "Python module 'advocate' is not installed but is needed for cover uploads"
-msgstr ""
+msgstr "Le module python \"advocate\" n'est pas installé et est nécessaire pour le chargement de couverture"
 
 #: cps/helper.py:857
 msgid "Error Downloading Cover"
@@ -825,7 +808,7 @@ msgstr "Erreur de format de couverture"
 
 #: cps/helper.py:863
 msgid "You are not allowed to access localhost or the local network for cover uploads"
-msgstr ""
+msgstr "Vous n'êtes pas habilité à vous connecter à localhost ou le réseau local pour charger des couvertures"
 
 #: cps/helper.py:873
 msgid "Failed to create path for cover"
@@ -848,55 +831,50 @@ msgid "Only jpg/jpeg files are supported as coverfile"
 msgstr "Seuls les fichiers jpg/jpeg sont supportés comme fichier de couverture"
 
 #: cps/helper.py:989 cps/helper.py:1149
-#, fuzzy
 msgid "Cover"
-msgstr "Découvrir"
+msgstr "Couverture"
 
 #: cps/helper.py:1006
 msgid "UnRar binary file not found"
 msgstr "Fichier binaire UnRar non trouvé"
 
 #: cps/helper.py:1017
-#, fuzzy
 msgid "Error executing UnRar"
 msgstr "Une erreur est survenue lors de l'exécution d'UnRar"
 
 #: cps/helper.py:1025
 msgid "Could not find the specified directory"
-msgstr ""
+msgstr "Le répertoire spécifié n'a pas été trouvé"
 
 #: cps/helper.py:1028
 msgid "Please specify a directory, not a file"
-msgstr ""
+msgstr "Merci de spécifier un répertoire et non un fichier"
 
 #: cps/helper.py:1042
-#, fuzzy
 msgid "Calibre binaries not viable"
-msgstr "La base de données n'est pas accessible en écriture"
+msgstr "Les programmes de Calibre ne sont pas conformes"
 
 #: cps/helper.py:1051
 #, python-format
 msgid "Missing calibre binaries: %(missing)s"
-msgstr ""
+msgstr "Programmes Calibre manquants : %(missing)s"
 
 #: cps/helper.py:1053
-#, fuzzy, python-format
+#, python-format
 msgid "Missing executable permissions: %(missing)s"
-msgstr "Les permissions d'exécutions manquantes"
+msgstr "Permissions d'exécutions manquantes: %(missing)s"
 
 #: cps/helper.py:1058
-#, fuzzy
 msgid "Error executing Calibre"
-msgstr "Une erreur est survenue lors de l'exécution d'UnRar"
+msgstr "Une erreur est survenue lors de l'exécution de Calibre"
 
 #: cps/helper.py:1151 cps/templates/admin.html:216
 msgid "Queue all books for metadata backup"
-msgstr ""
+msgstr "Mettre en file d'attente tous les livres pour la sauvegarde des métadonnées"
 
 #: cps/kobo_auth.py:92
-#, fuzzy
 msgid "Please access Calibre-Web from non localhost to get valid api_endpoint for kobo device"
-msgstr "Veuilllez ne pas accéder à calibre-web par localhost pour obtenir un api_endpoint valide pour un appareil kobo"
+msgstr "Veuilllez ne pas accéder à Calibre-Web par localhost pour obtenir un api_endpoint valide pour un appareil kobo"
 
 #: cps/kobo_auth.py:118
 msgid "Kobo Setup"
@@ -1029,7 +1007,6 @@ msgid "Read Books"
 msgstr "Livres lus"
 
 #: cps/render_template.py:63
-#, fuzzy
 msgid "Show Read and Unread"
 msgstr "Montrer lus et non-lus"
 
@@ -1057,9 +1034,8 @@ msgid "Categories"
 msgstr "Catégories"
 
 #: cps/render_template.py:73 cps/templates/user_table.html:158
-#, fuzzy
 msgid "Show Category Section"
-msgstr "Montrer la sélection par catégories"
+msgstr "Montrer la section \"Catégories\""
 
 #: cps/render_template.py:74 cps/templates/book_edit.html:86
 #: cps/templates/book_table.html:68 cps/templates/index.xml:106
@@ -1068,9 +1044,8 @@ msgid "Series"
 msgstr "Séries"
 
 #: cps/render_template.py:76 cps/templates/user_table.html:157
-#, fuzzy
 msgid "Show Series Section"
-msgstr "Montrer la sélection par séries"
+msgstr "Montrer la section \"Séries\""
 
 #: cps/render_template.py:77 cps/templates/book_table.html:66
 #: cps/templates/index.xml:79
@@ -1078,9 +1053,8 @@ msgid "Authors"
 msgstr "Auteurs"
 
 #: cps/render_template.py:79 cps/templates/user_table.html:160
-#, fuzzy
 msgid "Show Author Section"
-msgstr "Montrer la sélection par auteur"
+msgstr "Montrer la section \"Auteurs\""
 
 #: cps/render_template.py:81 cps/templates/book_table.html:72
 #: cps/templates/index.xml:88 cps/web.py:999
@@ -1088,9 +1062,8 @@ msgid "Publishers"
 msgstr "Éditeurs"
 
 #: cps/render_template.py:83 cps/templates/user_table.html:163
-#, fuzzy
 msgid "Show Publisher Section"
-msgstr "Montrer la sélection par éditeur"
+msgstr "Montrer la section \"Éditeurs\""
 
 #: cps/render_template.py:84 cps/templates/book_table.html:70
 #: cps/templates/index.xml:115 cps/templates/search_form.html:108
@@ -1099,34 +1072,30 @@ msgid "Languages"
 msgstr "Langues"
 
 #: cps/render_template.py:87 cps/templates/user_table.html:155
-#, fuzzy
 msgid "Show Language Section"
-msgstr "Montrer la sélection par langue"
+msgstr "Montrer la section \"Langues\""
 
 #: cps/render_template.py:88 cps/templates/index.xml:124
 msgid "Ratings"
 msgstr "Notes"
 
 #: cps/render_template.py:90 cps/templates/user_table.html:164
-#, fuzzy
 msgid "Show Ratings Section"
-msgstr "Afficher la sélection des évaluations"
+msgstr "Montrer la section \"Notes\""
 
 #: cps/render_template.py:91 cps/templates/index.xml:133
 msgid "File formats"
 msgstr "Formats de fichier"
 
 #: cps/render_template.py:93 cps/templates/user_table.html:165
-#, fuzzy
 msgid "Show File Formats Section"
-msgstr "Afficher la sélection des formats de fichiers"
+msgstr "Montrer la section \"Formats de fichier\""
 
 #: cps/render_template.py:95 cps/web.py:798
 msgid "Archived Books"
 msgstr "Livres archivés"
 
 #: cps/render_template.py:97 cps/templates/user_table.html:166
-#, fuzzy
 msgid "Show Archived Books"
 msgstr "Afficher les livres archivés"
 
@@ -1157,7 +1126,7 @@ msgid "Rating >= %(rating)s"
 msgstr "Évaluation >= %(rating)s"
 
 #: cps/search.py:234
-#, fuzzy, python-format
+#, python-format
 msgid "Read Status = '%(status)s'"
 msgstr "Status de lecture = %(status)s"
 
@@ -1174,9 +1143,8 @@ msgid "Invalid shelf specified"
 msgstr "L’étagère indiquée est invalide"
 
 #: cps/shelf.py:55
-#, fuzzy
 msgid "Sorry you are not allowed to add a book to that shelf"
-msgstr "Désolé, vous n’êtes pas autorisé à ajouter un livre dans l’étagère: %(shelfname)s"
+msgstr "Désolé, vous n’êtes pas autorisé à ajouter un livre à cette étagère"
 
 #: cps/shelf.py:64
 #, python-format
@@ -1186,7 +1154,7 @@ msgstr "Ce livre est déjà sur l’étagère : %(shelfname)s"
 #: cps/shelf.py:77
 #, python-format
 msgid "%(book_id)s is a invalid Book Id. Could not be added to Shelf"
-msgstr ""
+msgstr "%(book_id)s n'est pas un Book Id valide. N'a pas pu être ajouté à l'étagère"
 
 #: cps/shelf.py:97
 #, python-format
@@ -1226,9 +1194,8 @@ msgid "Create a Shelf"
 msgstr "Créer une étagère"
 
 #: cps/shelf.py:226
-#, fuzzy
 msgid "Sorry you are not allowed to edit this shelf"
-msgstr "Désolé, vous n’êtes pas autorisé à enlever un livre de cette étagère : %(sname)s"
+msgstr "Désolé, vous n’êtes pas autorisé à mettre à jour cette étagère"
 
 #: cps/shelf.py:228
 msgid "Edit a shelf"
@@ -1236,12 +1203,11 @@ msgstr "Modifier une étagère"
 
 #: cps/shelf.py:237
 msgid "Error deleting Shelf"
-msgstr ""
+msgstr "Erreur lors de la suppression de l'étagère"
 
 #: cps/shelf.py:239
-#, fuzzy
 msgid "Shelf successfully deleted"
-msgstr "Le livre a été supprimé avec succès"
+msgstr "L'étagère a été supprimée avec succès"
 
 #: cps/shelf.py:289
 #, python-format
@@ -1304,15 +1270,15 @@ msgstr "Débuté"
 
 #: cps/tasks_status.py:69
 msgid "Finished"
-msgstr "Terminé"
+msgstr "Fini"
 
 #: cps/tasks_status.py:71
 msgid "Ended"
-msgstr ""
+msgstr "Terminé"
 
 #: cps/tasks_status.py:73
 msgid "Cancelled"
-msgstr ""
+msgstr "Annulé"
 
 #: cps/tasks_status.py:75
 msgid "Unknown Status"
@@ -1377,7 +1343,7 @@ msgstr "Séries : %(serie)s"
 
 #: cps/web.py:629
 msgid "Rating: None"
-msgstr ""
+msgstr "Évaluation : aucune"
 
 #: cps/web.py:638
 #, python-format
@@ -1532,9 +1498,9 @@ msgid "Delete temp folder contents"
 msgstr ""
 
 #: cps/tasks/convert.py:112
-#, fuzzy, python-format
+#, python-format
 msgid "%(book)s send to E-Reader"
-msgstr "Envoyer vers Kindle"
+msgstr "%(book)s  envoyé à la liseuse"
 
 #: cps/tasks/convert.py:177
 #, python-format
@@ -1572,38 +1538,37 @@ msgstr "La commande ebook-convert a échouée : %(error)s"
 
 #: cps/tasks/convert.py:347
 msgid "Convert"
-msgstr ""
+msgstr "Conversion"
 
 #: cps/tasks/database.py:26
 msgid "Reconnecting Calibre database"
-msgstr ""
+msgstr "Reconnexion à la base de données Calibre"
 
 #: cps/tasks/mail.py:283
 msgid "E-mail"
-msgstr ""
+msgstr "Courriel"
 
 #: cps/tasks/metadata_backup.py:34
-#, fuzzy
 msgid "Backing up Metadata"
-msgstr "modifier les métadonnées"
+msgstr "Sauvegarde des métadonnées"
 
 #: cps/tasks/thumbnail.py:97
 #, python-format
 msgid "Generated %(count)s cover thumbnails"
-msgstr ""
+msgstr "Génération de %(count)s vignettes de couverture"
 
 #: cps/tasks/thumbnail.py:233 cps/tasks/thumbnail.py:448
 #: cps/tasks/thumbnail.py:518
 msgid "Cover Thumbnails"
-msgstr ""
+msgstr "Vignettes de couvertures"
 
 #: cps/tasks/thumbnail.py:294
 msgid "Generated {0} series thumbnails"
-msgstr ""
+msgstr "Génération de {0}  vignettes de séries"
 
 #: cps/tasks/thumbnail.py:459
 msgid "Clearing cover thumbnail cache"
-msgstr ""
+msgstr "Nettoyage du cache des vignettes de couvertures"
 
 #: cps/tasks/upload.py:39 cps/templates/admin.html:20
 #: cps/templates/layout.html:83 cps/templates/user_table.html:145
@@ -1696,9 +1661,8 @@ msgid "From Email"
 msgstr "Expéditeur des courriels"
 
 #: cps/templates/admin.html:90
-#, fuzzy
 msgid "Email Service"
-msgstr "Service courriel"
+msgstr "Service de courriel"
 
 #: cps/templates/admin.html:91
 msgid "Gmail via Oauth2"
@@ -1753,7 +1717,6 @@ msgid "Reverse Proxy Header Name"
 msgstr "Nom de l'en-tête du Reverse Proxy"
 
 #: cps/templates/admin.html:159
-#, fuzzy
 msgid "Edit Calibre Database Configuration"
 msgstr "Éditer la configuration de la base de données Calibre"
 
@@ -1767,24 +1730,24 @@ msgstr "Éditer la configuration de l’interface utilisateur"
 
 #: cps/templates/admin.html:167
 msgid "Scheduled Tasks"
-msgstr ""
+msgstr "Tâches programmées"
 
 #: cps/templates/admin.html:170 cps/templates/schedule_edit.html:12
 #: cps/templates/tasks.html:18
 msgid "Start Time"
-msgstr ""
+msgstr "Heure de début"
 
 #: cps/templates/admin.html:174 cps/templates/schedule_edit.html:20
 msgid "Maximum Duration"
-msgstr ""
+msgstr "Durée maximum"
 
 #: cps/templates/admin.html:178 cps/templates/schedule_edit.html:29
 msgid "Generate Thumbnails"
-msgstr ""
+msgstr "Générer les vignettes"
 
 #: cps/templates/admin.html:182
 msgid "Generate series cover thumbnails"
-msgstr ""
+msgstr "Générer les vignettes des couvertures de séries"
 
 #: cps/templates/admin.html:186 cps/templates/admin.html:208
 #: cps/templates/schedule_edit.html:37
@@ -1821,7 +1784,7 @@ msgstr "Arrêter Calibre-Web"
 
 #: cps/templates/admin.html:221
 msgid "Version Information"
-msgstr ""
+msgstr "Information de version"
 
 #: cps/templates/admin.html:225
 msgid "Version"
@@ -1921,7 +1884,7 @@ msgstr "Plus de"
 
 #: cps/templates/basic_detail.html:34 cps/templates/detail.html:158
 #: cps/templates/listenmp3.html:62
-#, fuzzy, python-format
+#, python-format
 msgid "Book %(index)s of %(range)s"
 msgstr "Livre %(index)s sur %(range)s"
 
@@ -1977,7 +1940,7 @@ msgstr "Déconnexion"
 
 #: cps/templates/basic_layout.html:35
 msgid "Normal Theme"
-msgstr ""
+msgstr "Thème normal"
 
 #: cps/templates/book_edit.html:11
 msgid "Delete Book"
@@ -2120,9 +2083,8 @@ msgid "Keyword"
 msgstr "Mot-clé"
 
 #: cps/templates/book_edit.html:240
-#, fuzzy
 msgid "Search keyword"
-msgstr " Rechercher le mot-clé "
+msgstr "Recherche du mot-clé"
 
 #: cps/templates/book_edit.html:246
 msgid "Click the cover to load metadata to the form"
@@ -2224,9 +2186,8 @@ msgid "Enter Publishers"
 msgstr "Insérer l’éditeur"
 
 #: cps/templates/book_table.html:73
-#, fuzzy
 msgid "Enter comments"
-msgstr "Saisir le nom du domaine"
+msgstr "Saisir le commentaire"
 
 #: cps/templates/book_table.html:73
 msgid "Comments"
@@ -2234,7 +2195,7 @@ msgstr "Commentaires"
 
 #: cps/templates/book_table.html:75
 msgid "Archive Status"
-msgstr ""
+msgstr "Status de l'archive"
 
 #: cps/templates/book_table.html:77 cps/templates/search_form.html:42
 msgid "Read Status"
@@ -3730,4 +3691,3 @@ msgstr "Synchroniser les étagères sélectionnées avec Kobo"
 #, fuzzy
 msgid "Show Read/Unread Section"
 msgstr "Montrer la sélection par séries"
-
